@@ -5,15 +5,22 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dillonellis.com"),
-  alternates: {
-    canonical: "/",
-  },
-  title: {
-    default: "Dillon Ellis",
-    template: "%s | Dillon Ellis",
-  },
-  description: "Software Developer",
+  title: "Dillon | Personal Portfolio",
+  description: "Dillon is a full-stack developer with 6 years of experience.",
+  icons: [
+    {
+      rel: "icon",
+      media: "(prefers-color-scheme: light)",
+      type: "image/png",
+      url: "/favicon-light.png",
+    },
+    {
+      rel: "icon",
+      media: "(prefers-color-scheme: dark)",
+      type: "image/png",
+      url: "/favicon-dark.png",
+    },
+  ],
 };
 
 export default function RootLayout({
