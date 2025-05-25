@@ -25,7 +25,7 @@ export default function Home() {
       <h1 className="">
         <span className="font-medium">Dillon Ellis</span> |{" "}
         <a
-          className="text-blue-500 transition-colors duration-200 hover:text-blue-700 dark:text-gray-400 dark:underline dark:decoration-gray-800 dark:underline-offset-2 hover:dark:text-gray-300"
+          className="text-blue-500 transition-colors duration-200 hover:text-blue-700 dark:text-gray-400 dark:underline dark:decoration-gray-400 dark:underline-offset-2 hover:dark:text-gray-200"
           href="https://github.com/Dillonzellis"
           target="_blank"
         >
@@ -33,16 +33,12 @@ export default function Home() {
         </a>
       </h1>
 
-      <p className="leading-snug">
-        Full-stack software developer with 7+ years of experience building
-        scalable web applications and leading technical initiatives. Expertise
-        in React ecosystem, modern JavaScript frameworks, and cloud architecture
-        with a focus on performance optimization and user experience.
-      </p>
-
-      <p className="leading-snug">
-        Currently developing high-performance systems at Cox Enterprises with
-        expertise in React, CMS platforms, and modern web technologies.
+      <p className="py-4 md:py-8">
+        Software developer with 7+ years of experience building scalable web
+        applications and driving architectural decisions for high-traffic sites.
+        Frontend-focused with full-stack capabilities, specializing in React
+        ecosystem, Next.js, and cloud integrations. Proven track record
+        delivering enterprise solutions serving millions of monthly users.
       </p>
 
       <div>
@@ -55,10 +51,12 @@ export default function Home() {
           <div key={idx} className="pb-4">
             <div className="flex justify-between">
               <div>{exp.company}</div>
-              <div className="text-sm text-gray-500">{exp.time}</div>
+              <div className="text-sm text-gray-400">{exp.time}</div>
             </div>
-            <div className="text-sm text-gray-700">{exp.role}</div>
-            <p className="pt-2 text-sm leading-snug text-gray-700">
+            <div className="text-sm text-gray-700 dark:text-gray-300">
+              {exp.role}
+            </div>
+            <p className="pt-2 text-sm leading-snug text-gray-700 dark:text-gray-400">
               {exp.desc}
             </p>
           </div>
