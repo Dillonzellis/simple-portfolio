@@ -4,19 +4,19 @@ export default function Home() {
       company: "Cox Enterprises(Atlanta Journal Constitution)",
       time: "2024 - Present",
       role: "Software Developer",
-      desc: "5+ million page views",
+      desc: "Major media company serving Georgia and the Southeast. Built enterprise web solutions for high-traffic news sites, architected multi-site consolidation, and implemented AWS integrations serving millions of monthly users.",
     },
     {
       company: "League of SouthEastern Credit Unions",
       time: "2022 - 2024",
       role: "Software Developer",
-      desc: "marketing",
+      desc: "Regional financial services organization. Developed member-facing web applications using React ecosystem, collaborated with design teams to deliver scalable solutions for credit union operations.",
     },
     {
       company: "RLM Affairs",
       time: "2017 - 2021",
       role: "Operations and Web Developer",
-      desc: "Event Space",
+      desc: "Award-winning wedding venue and floral business. Built custom e-commerce platform for online floral shop, developed marketing websites, and supported daily business operations while handling select freelance projects.",
     },
   ];
 
