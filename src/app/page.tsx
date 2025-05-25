@@ -25,7 +25,7 @@ export default function Home() {
       <h1 className="">
         <span className="font-medium">Dillon Ellis</span> |{" "}
         <a
-          className="text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800"
+          className="text-blue-500 transition-colors duration-200 hover:text-blue-700 dark:text-gray-400 dark:underline dark:decoration-gray-800 dark:underline-offset-2 hover:dark:text-gray-300"
           href="https://github.com/Dillonzellis"
           target="_blank"
         >
