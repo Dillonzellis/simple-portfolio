@@ -46,12 +46,14 @@ export default function Home() {
         <hr />
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-4">
         {exp.map((exp, idx) => (
           <div key={idx} className="pb-4">
-            <div className="flex justify-between">
+            <div className="flex flex-col justify-between md:flex-row">
               <div>{exp.company}</div>
-              <div className="text-sm text-gray-400">{exp.time}</div>
+              <div className="pb-2 text-sm text-gray-400 md:pb-0">
+                {exp.time}
+              </div>
             </div>
             <div className="text-sm text-gray-700 dark:text-gray-300">
               {exp.role}
