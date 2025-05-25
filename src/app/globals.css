@@ -18,7 +18,3 @@ h3,
 h4 {
   text-wrap: balance;
 }
-
-hr {
-  color: var(--color-gray-200);
-}
