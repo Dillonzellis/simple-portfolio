@@ -44,7 +44,7 @@ export default function RootLayout({
 
 const Footer = () => {
   const links = [
-    { name: "resume", url: "" },
+    { name: "resume", url: "dillon-ellis-resume.pdf" },
     { name: "linkedin", url: "https://www.linkedin.com/in/dillon-ellis/" },
     { name: "github", url: "https://github.com/dillonzellis" },
   ];
